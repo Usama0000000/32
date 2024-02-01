@@ -1,0 +1,262 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "Active",
+    "WatchFaceId": 5060237,
+    "Preview": "Preview"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 450,
+        "src": "0001"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 175,
+          "Y": 328,
+          "img_First": "0045",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 175,
+          "Y": 303,
+          "img_First": "0033",
+          "image_length": 0,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 87,
+          "imageY": 305,
+          "space": -2,
+          "zero": true,
+          "img_First": "0023",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 191,
+          "Y": 146,
+          "img_First": "0074",
+          "image_length": 10
+        }
+      },
+      {
+        "elementName": "ElementWeather",
+        "visible": true,
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 13,
+          "Y": 141,
+          "img_First": "0084",
+          "image_length": 29
+        },
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 10,
+          "imageY": 215,
+          "space": -1,
+          "zero": false,
+          "img_First": "0062",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "negative_image": "0072",
+          "invalid_image": "0073",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementAnimation",
+        "visible": true,
+        "Frame_Animation_List": {
+          "position": 1,
+          "selected_animation": 0,
+          "visible": true,
+          "Frame_Animation": [
+            {
+              "visible": true,
+              "show_level": "ONLY_NORMAL",
+              "x": 148,
+              "y": 360,
+              "anim_src": "first_anim_vgczn_0",
+              "anim_prefix": "first_anim_vgczn",
+              "anim_fps": 15,
+              "anim_repeat": true,
+              "preview_frame": 1,
+              "anim_size": 50
+            }
+          ]
+        }
+      },
+      {
+        "elementName": "DigitalTime",
+        "visible": true,
+        "Second": {
+          "position": 3,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 337,
+          "imageY": 215,
+          "space": -1,
+          "zero": true,
+          "img_First": "0062",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 217,
+          "imageY": 108,
+          "space": 0,
+          "zero": true,
+          "img_First": "0013",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 72,
+          "imageY": 108,
+          "space": 0,
+          "zero": true,
+          "img_First": "0003",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_AOD",
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 450,
+        "src": "0113"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 191,
+          "Y": 146,
+          "img_First": "0074",
+          "image_length": 10
+        }
+      },
+      {
+        "elementName": "DigitalTime",
+        "visible": true,
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "ONLY_AOD",
+          "imageX": 217,
+          "imageY": 108,
+          "space": 0,
+          "zero": true,
+          "img_First": "0013",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "ONLY_AOD",
+          "imageX": 72,
+          "imageY": 108,
+          "space": 0,
+          "zero": true,
+          "img_First": "0003",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      }
+    ]
+  }
+}
